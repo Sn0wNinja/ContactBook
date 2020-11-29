@@ -58,7 +58,9 @@ print(header)
 while on:
 
 	print("")
-	print("What would you like to do? \nPlease enter a number: \n1 Add new contact \n2 Remove a contact \n3 Show contact of a given name \n4 Change contact information \n5 Show entire contact book \n6 End the App")
+	print("What would you like to do?")
+	print("")
+	print("Please enter a number: \n1 Add new contact \n2 Remove a contact \n3 Show contact of a given name \n4 Change contact information \n5 Show entire contact book \n6 End the App")
 	intro_num = input()
 
 	if intro_num == "1":
